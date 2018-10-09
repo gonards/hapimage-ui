@@ -5,6 +5,11 @@
 	left: 0;
 	right: 0;
 	z-index: 99;
-	background-color: white;
 	border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.navigation li a{
+	font-size: 16px !important;
+}
+.navigation li a:hover{
+	color: #03a9f4 !important;
 }
