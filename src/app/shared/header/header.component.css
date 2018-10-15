@@ -14,8 +14,8 @@
 	color: #03a9f4 !important;
 }
 
-/* Icon Rotate */
-.hvr-icon-rotate {
+/* Icon Grow */
+.hvr-icon-grow {
 	display: inline-block;
 	vertical-align: middle;
 	-webkit-transform: perspective(1px) translateZ(0);
@@ -23,8 +23,8 @@
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	-webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
-}
-.hvr-icon-rotate .hvr-icon {
+  }
+  .hvr-icon-grow .hvr-icon {
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	-webkit-transition-duration: 0.3s;
@@ -33,8 +33,12 @@
 	transition-property: transform;
 	-webkit-transition-timing-function: ease-out;
 	transition-timing-function: ease-out;
-}
-.hvr-icon-rotate:hover .hvr-icon, .hvr-icon-rotate:focus .hvr-icon, .hvr-icon-rotate:active .hvr-icon {
-	-webkit-transform: rotate(20deg);
-	transform: rotate(20deg);
-}
+  }
+  .hvr-icon-grow:hover .hvr-icon, .hvr-icon-grow:focus .hvr-icon, .hvr-icon-grow:active .hvr-icon {
+	-webkit-transform: scale(1.3) translateZ(0);
+	transform: scale(1.3) translateZ(0);
+	color: #1ef087;
+
+  }
+  
+  
